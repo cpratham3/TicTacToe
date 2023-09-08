@@ -1,0 +1,27 @@
+/* styles.css */
+.normalButton {
+    -fx-font-size: 18px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #4CAF50; /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+    -fx-border-radius: 5px; /* Button border radius */
+}
+
+.normalButton:hover {
+    -fx-background-color: #45a049; /* Button background color on hover */
+}
+
+/* Define styles for the game board buttons */
+.boardButton {
+    -fx-font-size: 24px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-background-color: #FFFFFF; /* Button background color */
+    -fx-text-fill: #000000; /* Button text color */
+    -fx-border-color: #000000; /* Button border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+}
+
+.boardButton:hover {
+    -fx-background-color: #E0E0E0; /* Button background color on hover */
+}
